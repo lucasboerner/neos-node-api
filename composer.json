@@ -2,6 +2,7 @@
     "description": "",
     "type": "neos-package",
     "name": "lucas/nodeapi",
+    "license": "GPL-3.0-only",
     "require": {
         "neos/flow": "*"
     },
