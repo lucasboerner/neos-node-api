@@ -1,7 +1,7 @@
 {
     "description": "",
     "type": "neos-package",
-    "name": "lucas/nodeapi",
+    "name": "lucasboerner/nodeapi",
     "license": "GPL-3.0-only",
     "authors": [
         {

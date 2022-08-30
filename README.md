@@ -21,7 +21,7 @@ You can fetch rendered single nodes, child nodes and properties of nodes.
 
 ## Installation
 
-Lucas.NodeApi is installable through packagist by running ``composer require lucas/nodeapi``.
+Lucas.NodeApi is installable through packagist by running ``composer require lucasboerner/nodeapi``.
 
 ---
 
