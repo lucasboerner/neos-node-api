@@ -97,3 +97,12 @@ http://<your-host>/api/node/render?node=/sites/neosdemo/main/node524a87808ab3e/c
 }
 ```
 
+---
+
+## License and Contribution
+
+[GPLv3](LICENSE)
+
+As this is OpenSource, you are very welcome to contribute by reporting bugs, improve the code, write tests or
+whatever you are able to do to improve the project.
+
