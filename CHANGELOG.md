@@ -1,3 +1,7 @@
+## 1.0.0 (August 30, 2022)
+  - remove bumpversion.sh
+  - edit vendor name
+
 ## 0.1.0 (August 30, 2022)
   - added author to composer.json
   - added license information to composer.json
