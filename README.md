@@ -51,7 +51,7 @@ http://<your-host>/api/node/render?node=/sites/neosdemo/main/node524a87808ab3e/c
     "html":"<div><p>n</p><p>In only a few years from...</p></div>"
 }
 ```
-
+---
 ### Fetch child nodes of a node
 
 This API route returns a single rendered node.
@@ -74,7 +74,7 @@ http://<your-host>/api/node/renderChildren?node=/sites/neosdemo/main/node524a878
     }
 }
 ```
-
+---
 ### Fetch properties of a node
 
 This API route returns the properties of a node.
