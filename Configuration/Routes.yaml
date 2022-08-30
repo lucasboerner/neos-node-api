@@ -1,0 +1,7 @@
+-
+  name: 'Node API'
+  uriPattern: 'api/node/{@action}'
+  defaults:
+    '@package':    'Lucas.NodeApi'
+    '@controller': 'Api'
+    '@action':     '@action'
