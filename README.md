@@ -7,7 +7,7 @@
 This package provides an API for rendering fusion nodes and fetch them.
 
 ```
-http://127.0.0.1:8081/api/node/render?node=/sites/neosdemo/main/node524a87808ab3e/column0/node524a8a41c2f1f
+http://<your-host>/api/node/render?node=/sites/neosdemo/main/node524a87808ab3e/column0/node524a8a41c2f1f
 
 {
     "node":"/sites/neosdemo/main/node524a87808ab3e/column0/node524a8a41c2f1f",
@@ -27,7 +27,21 @@ Lucas.NodeApi is installable through packagist by running ``composer require luc
 
 ## Usage
 
+You can send requests in this format:
+
+```
+http://<your-host>/api/node/<action>?node=<your-node-path>
+```
+
+For <action> you can use the following options: render, renderChildren and properties. This options are explained below.
+
 ### Fetch a single node
+
+This API route returns a single rendered node.
+
+Options:
+
+- node: the node path of the node you like to fetch
 
 ```
 http://<your-host>/api/node/render?node=/sites/neosdemo/main/node524a87808ab3e/column0/node524a8a41c2f1f
@@ -40,8 +54,16 @@ http://<your-host>/api/node/render?node=/sites/neosdemo/main/node524a87808ab3e/c
 
 ### Fetch child nodes of a node
 
+This API route returns a single rendered node.
+
+Options:
+
+- node: the node path of the node you like to fetch
+- offset: how many nodes should be cut away at the beginning
+- length: how many nodes should be rendered
+
 ```
-http://<your-host>/api/node/renderChildren?node=/sites/neosdemo/main/node524a87808ab3e/column0
+http://<your-host>/api/node/renderChildren?node=/sites/neosdemo/main/node524a87808ab3e/column0&offset=0&length=10
 
 {
     "node":"/sites/neosdemo/main/node524a87808ab3e/column0",
@@ -54,6 +76,12 @@ http://<your-host>/api/node/renderChildren?node=/sites/neosdemo/main/node524a878
 ```
 
 ### Fetch properties of a node
+
+This API route returns the properties of a node.
+
+Options:
+
+- node: the node path of the node you like to fetch
 
 ```
 http://<your-host>/api/node/render?node=/sites/neosdemo/main/node524a87808ab3e/column0/node524a8a41c2f1f

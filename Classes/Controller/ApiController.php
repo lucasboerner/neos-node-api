@@ -61,7 +61,7 @@ class ApiController extends ActionController
 
     /**
      * @param \Neos\ContentRepository\Domain\Model\Node $node
-     * @param int $offset where should the list start
+     * @param int $offset how many nodes should be cut away at the beginning
      * @param int $length how many nodes should be rendered
      * @throws \Exception
      */
