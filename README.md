@@ -34,7 +34,9 @@ http://<your-host>/api/node/<action>?node=<your-node-path>
 ```
 
 For <action> you can use the following options: render, renderChildren and properties. This options are explained below.
+
 ---
+
 ### Fetch a single node
 
 This API route returns a single rendered node.
