@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "lucas/nodeapi",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucas\\NodeApi\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Lucas.NodeApi"
+        }
+    }
+}
