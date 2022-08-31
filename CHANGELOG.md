@@ -1,3 +1,6 @@
+## 1.0.1 (August 31, 2022)
+  - added gitignore
+
 ## 1.0.0 (August 30, 2022)
   - remove bumpversion.sh
   - edit vendor name
