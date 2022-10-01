@@ -1,3 +1,7 @@
+## 1.1.0 (October 01, 2022)
+  - Update author credentials
+  - Update package name
+
 ## 1.0.1 (August 31, 2022)
   - added gitignore
 
