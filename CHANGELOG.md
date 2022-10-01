@@ -1,3 +1,6 @@
+## 1.1.1 (October 01, 2022)
+  - Updated install instructions
+
 ## 1.1.0 (October 01, 2022)
   - Update author credentials
   - Update package name
